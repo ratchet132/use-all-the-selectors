@@ -1,25 +1,25 @@
 body {
-  background-color:  #fdf6e3;
+  background-color: #fdf6e3;
 }
 
 header, footer {
-  font-size:  1.5rem;
+  font-size: 1.5rem;
 }
 
 nav ul {
-  font-family:  sans-serif;
+  font-family: sans-serif;
 }
 
 .logo {
-  text-transform:  uppercase;
+  text-transform: uppercase;
 }
 
 .wrapper {
   background-color: #eee8d5;
 }
 
-#contents, #favs, #facts, #types{
-  color:  #93a1a1;
+#contents, #favs, #facts, #types {
+  color: #93a1a1;
 }
 
 .wrapper .dfn {
@@ -27,10 +27,10 @@ nav ul {
 }
 
 .dfn + strong {
-  color:  #fff;
+  color: #fff;
 }
 
-a:not(.no-highlight){
+a:not(.no-highlight) {
   background-color: #719e07;
 }
 
@@ -42,14 +42,18 @@ ol li:last-child {
   color: #2aa198;
 }
 
-.types li:nth-child(odd){
+.types li:nth-child(odd) {
   background-color: #657ba3;
 }
 
-.types li:nth-child(even){
+.types li:nth-child(even) {
   background-color: #586e75;
 }
 
-.types li:nth-child(3n+3){
+.types li:nth-child(3n+3) {
   background-color: #d04b16;
+}
+
+a[rel="external"] {
+  background-color: #2694d8;
 }
